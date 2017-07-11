@@ -29,8 +29,10 @@ class FirstTask implements Runnable {
 				++count;
 				System.out.println(id + " " + count + " " + "from thread " + tName);
 				try {
+					System.out.println("gonna go home");
 					TimeUnit.MILLISECONDS.sleep(10);
 				} catch (InterruptedException e) {
+					//use logger than stacktrace
 					e.printStackTrace();
 				}
 			}
