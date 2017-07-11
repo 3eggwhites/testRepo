@@ -28,7 +28,9 @@ class FirstTask implements Runnable {
 				id++;
 				++count;
 				System.out.println(id + " " + count + " " + "from thread " + tName);
+				System.out.println("learning git");
 				try {
+					System.out.println("feeling sleepy");
 					TimeUnit.MILLISECONDS.sleep(10);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
