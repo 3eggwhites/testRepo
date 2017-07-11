@@ -11,7 +11,7 @@ public class FirstWay {
 		t1.start();
 		t2.start();
 	}
-
+//comment add check
 }
 
 class FirstTask implements Runnable {
