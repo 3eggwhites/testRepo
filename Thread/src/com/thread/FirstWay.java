@@ -31,8 +31,10 @@ class FirstTask implements Runnable {
 				System.out.println("learning git");
 				try {
 					System.out.println("feeling sleepy");
+					System.out.println("gonna go home");
 					TimeUnit.MILLISECONDS.sleep(10);
 				} catch (InterruptedException e) {
+					//use logger than stacktrace
 					e.printStackTrace();
 				}
 			}
